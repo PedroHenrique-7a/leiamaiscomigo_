@@ -5,11 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leia mais comigo</title>
+    <style>
+        body {
+            background-color: burlywood(235, 123, 182,0.356);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 14pt;
+        }
+        main {
+            background-image: url(./image/background-topo.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 20px;
+        }
+        #logo{text-align: center;}
+        #logo img {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 50%;
+        }
+        h1{
+            color: white;
+            text-align: center;
+            background-color: black;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            
+        }
+        .Link-social{
+            padding: 10px 0;
+        }
+        .Link-social a{
+            padding: 20px;
+            background-color: black;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
-    <div>
-        <img src="./image/logo.png" alt="logomarca do leia mais comigo">
-    <h1>Projeto Leia Mais Comigo</h1> </div>
-    
+    <main>
+        <div id="logo"> 
+            <img src="./image/logo.png" alt="Logomarca do Leia Mais Comigo" width="200" height="200">
+        </div>
+        <h1>Projeto Leia mais comigo</h1>
+        <div class="Link-social">
+            <a href="https://youtube.com" target="_blank">
+                <img src="./image/icons8-youtube-48.png" alt="Link para o Youtube" height="50">
+                Youtube
+            </a> 
+        </div>
+        <div class="Link-social">
+            <a href="https://whatsapp.com" target="_blank">
+                <img src="./image/icons8-whatsapp-48.png" alt="Link para o WhatsApp" height="50">
+                WhatsApp
+            </a>
+        </div>
+        <div class="Link-social">
+            <a href="https://instagram.com" target="_blank" >
+                <img src="./image/icons8-instagram-48.png" alt="Link para o Instagram" height="50">
+                Instagram
+            </a>
+        </div>
+    </main>
 </body>
 </html>
