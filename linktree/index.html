@@ -1,5 +1,5 @@
 <!-- Aprendendo a criar site :) -->
-<!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -8,56 +8,68 @@
     <title>Leia mais comigo</title>
     <style>
         body {
-            background-color: burlywood(235, 123, 182,0.356);
+            background-color: rgba(235, 123, 182, 0.356);
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-size: 14pt;
         }
         main {
-            background-image: url(./image/background-topo.jpg);
+            color: white;
+            background-image: url(./image/background-topo2.jpg);
             background-position: center;
             background-size: cover;
-            background-repeat: no-repeat;
             padding: 20px;
+            min-height: 100vh;
         }
-        #logo{text-align: center;}
+        #logo {
+            text-align: center;
+        }
         #logo img {
-            margin-top: 40px;
+            margin-top: 50px;
             padding: 20px;
             background-color: white;
             border-radius: 50%;
         }
-        h1{
-            color: white;
+        h1 {
+            color: black;
             text-align: center;
-            background-color: black;
+            background-color: white;
             padding-top: 20px;
             padding-bottom: 20px;
-            
+            border-radius: 15px;
+            width: 50%;
+            margin: 0 auto;
         }
-        .Link-social{
+        .Link-social {
             padding: 10px 0;
+            display: flex;
+            justify-content: center;
         }
-        .Link-social a{
+        .Link-social a {
             padding: 20px;
-            background-color: black;
+            margin: auto;
+            background-color: white;
+            color: black;
             text-align: center;
             text-decoration: none;
             border-radius: 15px;
             display: flex;
             align-items: center;
             justify-content: center;
+            width: 80%;
+            min-width: 300px;
+            max-width: 400px;
         }
     </style>
 </head>
 <body>
     <main>
         <div id="logo"> 
-            <img src="./image/logo.png" alt="Logomarca do Leia Mais Comigo" width="200" height="200">
+            <img src="./image/logo2.png" alt="Logomarca do Leia Mais Comigo" width="200" height="200">
         </div>
         <h1>Projeto Leia mais comigo</h1>
         <div class="Link-social">
             <a href="https://youtube.com" target="_blank">
-                <img src="./image/icons8-youtube-48.png" alt="Link para o Youtube" height="50">
+                <img src="./image/icons8-youtube-48.png" alt="Link para o canal do Youtube" height="50">
                 Youtube
             </a> 
         </div>
@@ -68,9 +80,15 @@
             </a>
         </div>
         <div class="Link-social">
-            <a href="https://instagram.com" target="_blank" >
+            <a href="https://instagram.com" target="_blank">
                 <img src="./image/icons8-instagram-48.png" alt="Link para o Instagram" height="50">
                 Instagram
+            </a>
+        </div>
+        <div class="Link-social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="./image/icons8-facebook-48.png" alt="Link para o Facebook" height="50">
+                Facebook
             </a>
         </div>
     </main>

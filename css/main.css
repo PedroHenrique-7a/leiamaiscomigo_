@@ -1,0 +1,25 @@
+:root{
+    --blue: #0000ff; 
+    --white:#eeeeee;
+    --back:black;
+    --darkgrey:darkgray;
+    --shadow: rgb(0, 0, 0, 0.3);
+    --font-tittle:"serif";
+    --font-primary:'roboto';
+    --font-size-default:16px;    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font-primary);
+    font-size: var(--font-size-default);
+}
+a{
+    color:darkgray;
+    text-decoration: underline;
+    
+}
+

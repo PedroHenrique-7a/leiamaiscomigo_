@@ -1,0 +1,54 @@
+/* Aprendendo css */
+header{
+    background-image: url(../image/background-topo2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--shadow);
+    min-height: 400px;
+}
+.header-text,
+.header-logo{
+    width: 50%;
+    color: var(--white);
+    padding: 40px;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-logo img{
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: 40%;
+}
+.header-text{
+    background-color: var(--shadow);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    list-style: none;
+}
+.nav-top{
+    line-height: 40px;
+    background-color: var(--back);
+}
+.nav-top li a{
+    color: var(--white);
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.nav-top li a:hover{
+    color:var(--darkgray);
+    background-color: var(--white);
+    border-bottom: solid 4px var(--darkgray);
+}
+
