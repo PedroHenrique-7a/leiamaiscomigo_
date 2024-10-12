@@ -30,12 +30,10 @@
             </div>
         </div>
     </header>
-
-    <main>
         <section class="card-content">
             <div class="container">
                 <div class="card">
-                    <div>
+                    <div class="card-img">
                         <img src="https://picsum.photos/400/300" alt="Foto de um livro" height="200">
                     </div>
                     <div class="card-text">
@@ -45,7 +43,7 @@
                 </div>
 
                 <div class="card">
-                    <div>
+                    <div class="card-img">
                         <img src="https://picsum.photos/400/300" alt="Foto de um livro" height="200">
                     </div>
                     <div class="card-text">
@@ -55,7 +53,7 @@
                 </div>
 
                 <div class="card">
-                    <div>
+                    <div class="card-img">
                         <img src="https://picsum.photos/400/300" alt="Foto de um livro" height="200">
                     </div>
                     <div class="card-text">
@@ -65,7 +63,7 @@
                 </div>
 
                 <div class="card">
-                    <div>
+                    <div class="card-img">
                         <img src="https://picsum.photos/400/300" alt="Foto de um livro" height="200">
                     </div>
                     <div class="card-text">
@@ -75,7 +73,7 @@
                 </div>
 
                 <div class="card">
-                    <div>
+                    <div class="card-img">
                         <img src="https://picsum.photos/400/300" alt="Foto de um livro" height="200">
                     </div>
                     <div class="card-text">
@@ -85,7 +83,7 @@
                 </div>
 
                 <div class="card">
-                    <div>
+                    <div class="card-img">
                         <img src="https://picsum.photos/400/300" alt="Foto de um livro" height="200">
                     </div>
                     <div class="card-text">
@@ -94,7 +92,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <div>
+                    <div class="card-img">
                         <img src="https://picsum.photos/400/300" alt="Foto de um livro" height="200">
                     </div>
                     <div class="card-text">
@@ -103,7 +101,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <div>
+                    <div class="card-img">
                         <img src="https://picsum.photos/400/300" alt="Foto de um livro" height="200">
                     </div>
                     <div class="card-text">
@@ -113,6 +111,48 @@
                 </div>
             </div>
         </section>
-    </main>
+    <section class="container contact">
+        <div class="contact-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.3565145343323!2d-43.561412623833945!3d-22.900217479259815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be15839e68c4f%3A0x588a284ae162bc38!2sSenac%20Campo%20Grande!5e0!3m2!1spt-BR!2sbr!4v1728687340161!5m2!1spt-BR!2sbr" width="99%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div>
+            <h2>Localização</h2>
+            <p>
+                Rua dos livros, 908 - Campo Grande - RJ</p>
+                <p>Tel: +55 21 99999-9999</p>
+            </div>
+        </div>
+        <form action="http://api.livros.com.br/coment" class="contact-form">
+          <div class="form-group">
+            <!-- <label for="text" >Nome</label> -->
+            <input type="text" id="nome" name="nome" placeholder="Nome">
+          </div>
+          <div class="form-group">
+            <input type="email" id="Email" name="Email" placeholder="E-mail" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" id="tel" name="tel" placeholder="Telefone" required>
+          </div>
+
+          <div class="form-group">
+            <!-- <label for="assunto">Assunto</label> -->
+            <select name="assunto" id="assunto">
+                <option selected disabled>Assunto</option>
+                <option value="2">Sugenstão</option>
+                <option value="3">Elogios</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <textarea name="mensagem" id="mensagem" rows="5" placeholder="Mensagem"></textarea>
+          </div>
+
+          <div class="form-group">
+            <button>Enviar</button>
+
+          </div>
+    
+        </form>
+    </section>
 </body>
 </html>
+

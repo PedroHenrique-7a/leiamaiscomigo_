@@ -2,7 +2,7 @@
     --blue: #0000ff; 
     --white:#eeeeee;
     --back:black;
-    --darkgrey:darkgray;
+    --grey:gray;
     --shadow: rgb(0, 0, 0, 0.3);
     --font-tittle:"serif";
     --font-primary:'roboto';
@@ -18,7 +18,7 @@ body{
     font-size: var(--font-size-default);
 }
 a{
-    color:darkgray;
+    color: var(--grey);
     text-decoration: underline;
     
 }
@@ -28,4 +28,3 @@ a{
     max-width: 1280px;
     margin: auto;
 }
-
