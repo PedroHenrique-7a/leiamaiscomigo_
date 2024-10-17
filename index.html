@@ -1,28 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leia mais comigo | Início</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/home.css">
 </head>
+
 <body>
-    <header>
-        <nav class="nav-top">
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Galeria</a></li>
-                <li><a href="#">Agenda</a></li>
-                <li><a href="#">Contato</a></li>
+    <nav class="navbar stick-top navbar-expand-lg nav-top">
+        <div class="container">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link " href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#cards">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#agenda">Agenda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="index.html#contato">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="login.html">Entrar</a>
+              </li>
             </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+    <header>
+        <nav class="navbar sticky-top">
+         <!-- <nav class="nav-top"> -->
+           
         </nav>
         <div class="header-main">
             <div class="header-content container">
                 <div class="header-text">
-                    <h1>Título</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio libero natus aut cumque eum consequuntur sequi culpa voluptate quidem incidunt illum non eius aspernatur iste, vero quibusdam quam! Eum, neque.</p>
+                    <h1>Desperte o Leitor em Você: A Jornada do Leia Mais Comigo</h1>
+                    <p>"Leia Mais Comigo" é um projeto voltado para promover o hábito da leitura e criar uma comunidade de leitores apaixonados. Através de encontros mensais, discussões sobre livros, recomendações e atividades interativas, buscamos incentivar a troca de ideias e a apreciação literária.</p>
                 </div>
                 <div class="header-logo">
                     <img src="./image/logo2.png" alt="Logomarca do projeto Leia Mais Comigo" height="200">
@@ -30,129 +64,134 @@
             </div>
         </div>
     </header>
-        <section class="card-content">
-            <div class="container">
-                <div class="card">
-                    <div class="card-img">
-                        <img src="https://picsum.photos/400/300" alt="Foto de um livro" height="200">
-                    </div>
-                    <div class="card-text">
-                        <h2>Título</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
+    <section class="card-content" id="cards">
+        <div class="container">
+            <div class="card">
+                <div class="card-img">
+                    <img src="./image/5e0050418707cbd107d78d3af402b1c0.webp" alt="Foto de um livro" height="200">
                 </div>
-
-                <div class="card">
-                    <div class="card-img">
-                        <img src="https://picsum.photos/400/300" alt="Foto de um livro" height="200">
-                    </div>
-                    <div class="card-text">
-                        <h2>Título</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-img">
-                        <img src="https://picsum.photos/400/300" alt="Foto de um livro" height="200">
-                    </div>
-                    <div class="card-text">
-                        <h2>Título</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-img">
-                        <img src="https://picsum.photos/400/300" alt="Foto de um livro" height="200">
-                    </div>
-                    <div class="card-text">
-                        <h2>Título</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-img">
-                        <img src="https://picsum.photos/400/300" alt="Foto de um livro" height="200">
-                    </div>
-                    <div class="card-text">
-                        <h2>Título</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-img">
-                        <img src="https://picsum.photos/400/300" alt="Foto de um livro" height="200">
-                    </div>
-                    <div class="card-text">
-                        <h2>Título</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img">
-                        <img src="https://picsum.photos/400/300" alt="Foto de um livro" height="200">
-                    </div>
-                    <div class="card-text">
-                        <h2>Título</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img">
-                        <img src="https://picsum.photos/400/300" alt="Foto de um livro" height="200">
-                    </div>
-                    <div class="card-text">
-                        <h2>Título</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
+                <div class="card-text">
+                    <p>Harry Potter e a Pedra Filosofal: 1 Capa dura – 19 agosto 2017.</p>
+                    <h2>Título</h2>
                 </div>
             </div>
-        </section>
-    <section class="container contact">
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="./image/livro-harry-potter-e-a-cmara-secreta-capa-dura-novo-lacrado-D_NQ_NP_732839-MLB26492967186_122017-F.jpg"
+                        alt="Foto de um livro" height="200">
+                </div>
+                <div class="card-text">
+                    <p>Harry Potter e a Câmara Secreta: 2 Capa dura – Edição padrão, 19 agosto 2017.</p>
+                    <h2>Título</h2>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="./image/41kT95iZ81L._SY445_SX342_.jpg" alt="Harry Potter e o Prisioneiro de Azkaban: 3 Capa dura – 19 agosto 2017" height="200">
+                </div>
+                <div class="card-text">
+                    <h2>Título</h2>
+                    <p>Harry Potter e o Prisioneiro de Azkaban: 3 Capa dura – 19 agosto 2017</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="./image/livro 4.jpg" alt="Harry Potter e o Cálice de Fogo: 4 Capa dura – 19 agosto 2017" height="200">
+                </div>
+                <div class="card-text">
+                    <h2>Título</h2>
+                    <p>Harry Potter e o Cálice de Fogo: 4 Capa dura – 19 agosto 2017</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="./image/download-harry-potter-e-a-ordem-da-fenix-j-k-rowling-ler-online-pdf.jpg" alt="Harry Potter e a Ordem da Fênix: 5 Capa dura – 19 agosto 2017" height="200">
+                </div>
+                <div class="card-text">
+                    <h2>Título</h2>
+                    <p>Harry Potter e a Ordem da Fênix: 5 Capa dura – 19 agosto 2017</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="./image/51msVf94L2L._SY445_SX342_.jpg" alt="Foto de um livro" height="200">
+                </div>
+                <div class="card-text">
+                    <p>Harry Potter e o Enigma do Príncipe: 6 Capa dura – 19 agosto 2017</p>
+                    <h2>R$ 39,90</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="./image/51PoQ61oq-L._SY445_SX342_.jpg" alt="Foto de um livro" height="200">
+                </div>
+                <div class="card-text">
+                    <h2>Título</h2>
+                    <p>Harry Potter e as Relíquias da Morte: 7 Capa dura – 19 agosto 2017</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="./image/91m1WPwTusL._SY466_.jpg" alt="Foto de um livro" height="200">
+                </div>
+                <div class="card-text">
+                    <h2></h2>
+                    <p>Harry Potter e a Criança Amaldiçoada: Partes um e dois: roteiro definitivo e final Capa comum – 29 julho 2022</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container contact" id="contato">
         <div class="contact-map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.3565145343323!2d-43.561412623833945!3d-22.900217479259815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be15839e68c4f%3A0x588a284ae162bc38!2sSenac%20Campo%20Grande!5e0!3m2!1spt-BR!2sbr!4v1728687340161!5m2!1spt-BR!2sbr" width="99%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.3565145343323!2d-43.561412623833945!3d-22.900217479259815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be15839e68c4f%3A0x588a284ae162bc38!2sSenac%20Campo%20Grande!5e0!3m2!1spt-BR!2sbr!4v1728687340161!5m2!1spt-BR!2sbr"
+                width="99%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div>
-            <h2>Localização</h2>
-            <p>
-                Rua dos livros, 908 - Campo Grande - RJ</p>
-                <p>Tel: +55 21 99999-9999</p>
+                <h2>Localização</h2>
+                <p>
+                    Rua dos livros, 908 - Campo Grande - RJ</p>
+                <p>Tel: +55 21 98602-9711</p>
             </div>
         </div>
         <form action="http://api.livros.com.br/coment" class="contact-form">
-          <div class="form-group">
-            <!-- <label for="text" >Nome</label> -->
-            <input type="text" id="nome" name="nome" placeholder="Nome">
-          </div>
-          <div class="form-group">
-            <input type="email" id="Email" name="Email" placeholder="E-mail" required>
-          </div>
-          <div class="form-group">
-            <input type="tel" id="tel" name="tel" placeholder="Telefone" required>
-          </div>
+            <div class="form-group">
+                <!-- <label for="text" >Nome</label> -->
+                <input type="text" id="nome" name="nome" placeholder="Nome" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="Email" name="Email" placeholder="E-mail" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" id="tel" name="tel" placeholder="Telefone" required>
+            </div>
 
-          <div class="form-group">
-            <!-- <label for="assunto">Assunto</label> -->
-            <select name="assunto" id="assunto">
-                <option selected disabled>Assunto</option>
-                <option value="2">Sugenstão</option>
-                <option value="3">Elogios</option>
-            </select>
-          </div>
+            <div class="form-group">
+                <!-- <label for="assunto">Assunto</label> -->
+                <select name="assunto" id="assunto">
+                    <option selected disabled>Assunto</option>
+                    <option value="2">Sugenstão</option>
+                    <option value="3">Elogios</option>
+                </select>
+            </div>
 
-          <div class="form-group">
-            <textarea name="mensagem" id="mensagem" rows="5" placeholder="Mensagem"></textarea>
-          </div>
+            <div class="form-group">
+                <textarea name="mensagem" id="mensagem" rows="5" placeholder="Mensagem"></textarea>
+            </div>
 
-          <div class="form-group">
-            <button>Enviar</button>
+            <div class="form-group form-group-buttom">
+                <button>Enviar</button>
+                <button type="reset">Limpar </button>
 
-          </div>
-    
+            </div>
+
         </form>
     </section>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
-

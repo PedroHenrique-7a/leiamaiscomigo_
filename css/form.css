@@ -1,0 +1,32 @@
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-group input, .form-group select, .form-group textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px ;
+    font-family: var(--font-primary);
+    border: 1px solid;
+}
+
+.form-group button{
+    padding: 5px 10px;
+    background-color: var(--black);
+    color: var(--white);
+    cursor: pointer;
+    border: solid 1px var(--black);
+}
+
+.form-group:hover{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.form-group-buttom{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}

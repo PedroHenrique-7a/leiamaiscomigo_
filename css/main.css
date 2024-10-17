@@ -1,30 +1,36 @@
-:root{
+@import "./nav.css";
+
+:root {
     --blue: #0000ff; 
-    --white:#eeeeee;
-    --back:black;
-    --grey:gray;
+    --white: #eeeeee;
+    --black: black;
+    --gray: gray; 
     --shadow: rgb(0, 0, 0, 0.3);
-    --font-tittle:"serif";
-    --font-primary:'roboto';
-    --font-size-default:16px;    
+    --font-title: "serif"; 
+    --font-primary: 'roboto';
+    --font-size-default: 16px;    
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: var(--font-primary);
     font-size: var(--font-size-default);
+    background-color: var(--white);
 }
-a{
-    color: var(--grey);
+
+a {
+    color: var(--gray); 
     text-decoration: underline;
-    
 }
-.container{
+
+.container {
     width: 100%;
-    min-width: 340;
+    min-width: 340px; 
     max-width: 1280px;
     margin: auto;
 }
