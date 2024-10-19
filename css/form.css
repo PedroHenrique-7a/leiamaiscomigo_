@@ -30,3 +30,16 @@
     justify-content: left;
     gap: 10px;
 }
+
+:root{
+    --bs-blue: orange
+}
+
+.from-control:disabled{
+    background-color: var(--gray);
+}
+
+.from-control:focus{
+    border: solid 2px orange;
+    box-shadow: 5px 5px 0px 0 var(--bs-blue);
+}

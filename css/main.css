@@ -9,6 +9,7 @@
     --font-title: "serif"; 
     --font-primary: 'roboto';
     --font-size-default: 16px;    
+    --bs-blue: orange;
 }
 
 * {
